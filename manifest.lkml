@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "cortex_demo_s4"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "hisol-sap-project1"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "CORTEX_DEMO_S4_REPORTING001"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "100"
   export: override_required
 }
 
